@@ -1,6 +1,6 @@
 # R code to read in the CSV file "newdata.csv" 
 
-newsleepdata <- read.csv("C:\\newdata.csv", header = T)  # Please change the path accordingly. 
+newsleepdata <- read.csv("C:/src/lab_test/Lab_Model_Test/newdata.csv", header = T)  # Please change the path accordingly. 
 
 # newsleepdata
 

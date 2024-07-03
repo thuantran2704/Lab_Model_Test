@@ -16,7 +16,7 @@ newsleepdata$ahi[newsleepdata$ahi == 0] <- 0.05
 # Remove highly unusual data points (AHI > 100 and BMI > 70)
 newsleepdata <- newsleepdata[newsleepdata$ahi <= 100, ]
 newsleepdata <- newsleepdata[-437, ]
-
+#newsdata
 # newsleepdata is the data frame being used for the analysis.
 
 ####################################################

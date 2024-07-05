@@ -18,9 +18,6 @@ newsleepdata <- newsleepdata[newsleepdata$ahi <= 100, ]
 newsleepdata <- newsleepdata[-437, ]
 # newsleepdata is the data frame being used for the analysis.
 
-####################################################
-# Related information 
-#################################################### 
 
 # The following variables are considered: 
 # • TRT (Total Recording Time): Time from recording start to recording end
